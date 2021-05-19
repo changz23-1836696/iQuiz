@@ -140,7 +140,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             }
         }
         catch {
-            let alert = UIAlertController(title: "Error", message: "Fail to get questions.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Error", message: "Unable to get questions", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default))
             self.present(alert, animated: true, completion: nil)
         }

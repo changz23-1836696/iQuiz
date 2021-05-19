@@ -32,7 +32,7 @@ class PopoverViewController: UIViewController, UIPopoverPresentationControllerDe
                     NSLog(String(describing: json))
                     if (data != nil && json != nil) {
                         DispatchQueue.main.async {
-                            let alert = UIAlertController(title: "Get Questions", message: "You have successfully get questions from the URL!", preferredStyle: .alert)
+                            let alert = UIAlertController(title: "Download Questions", message: "Questions download successfully from the URL!", preferredStyle: .alert)
                             alert.addAction(UIAlertAction(title: "OK", style: .default))
                             self.present(alert, animated: true, completion: nil)
                         }
@@ -45,7 +45,7 @@ class PopoverViewController: UIViewController, UIPopoverPresentationControllerDe
                         }
                     } else {
                         DispatchQueue.main.async {
-                            let alert = UIAlertController(title: "Get Questions", message: "Fail to get questions from the given URL.", preferredStyle: .alert)
+                            let alert = UIAlertController(title: "Get Questions", message: "Unable to get questions from the given URL.", preferredStyle: .alert)
                             alert.addAction(UIAlertAction(title: "OK", style: .default))
                             self.present(alert, animated: true, completion: nil)
                         }
