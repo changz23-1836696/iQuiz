@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  iQuiz
 //
-//  Created by 曾畅 on 5/6/21.
+//  Created by 曾(Zeng)畅(Chang) on 5/6/21.
 //
 
 import UIKit
